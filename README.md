@@ -41,6 +41,9 @@
 - Настройте балансировку Round-robin на 4 уровне.
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
 
+![скриншот 1](https://github.com/olegstrigunov/Clustering_and_load_balancing/blob/main/screanshots/1.png)
+![скриншот 2](https://github.com/olegstrigunov/Clustering_and_load_balancing/blob/main/screanshots/2.png)
+![скриншот 3](https://github.com/olegstrigunov/Clustering_and_load_balancing/blob/main/screanshots/3.png)
 
 ### Задание 2
 - Запустите три simple python сервера на своей виртуальной машине на разных портах
@@ -48,7 +51,8 @@
 - HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
 
-
+![скриншот 4](https://github.com/olegstrigunov/Clustering_and_load_balancing/blob/main/screanshots/4.png)
+![скриншот 5](https://github.com/olegstrigunov/Clustering_and_load_balancing/blob/main/screanshots/5.png)
 
 ---
 <details>
